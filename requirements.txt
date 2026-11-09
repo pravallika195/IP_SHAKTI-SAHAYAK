@@ -1,0 +1,21 @@
+# Core document processing
+PyMuPDF>=1.24.0
+python-docx>=1.1.2
+langdetect>=1.0.9
+Pillow>=10.0.0
+
+# Multilingual retrieval
+sentence-transformers>=3.0.0
+chromadb>=0.5.0
+rank-bm25>=0.2.2
+
+# LLM
+google-generativeai>=0.8.0
+python-dotenv>=1.0.0
+
+# Interfaces
+streamlit>=1.40.0
+flask>=3.0.0
+
+# Optional OCR: install Tesseract separately and language packs eng, hin, tel
+# PyMuPDF page.get_textpage_ocr() is used when ENABLE_OCR=true.
